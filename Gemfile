@@ -9,6 +9,8 @@ gem "rails", "7.0.4"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails", "3.4.2"
 
+gem "pg", "1.3.5"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "5.6.4"
 
@@ -68,8 +70,4 @@ group :test do
   gem "capybara", "3.37.1"
   gem "selenium-webdriver", "4.2.0"
   gem "webdrivers", "5.0.0"
-end
-
-group :production do
-  gem "pg", "1.3.5"
 end
